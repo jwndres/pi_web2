@@ -110,7 +110,7 @@ export default function AccountForm({ session }) {
 
       <div>
         <form action="/auth/signout" method="post">
-          <button  type="button">
+          <button  type="submit">
             Sign out
           </button>
         </form>
